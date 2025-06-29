@@ -14,12 +14,12 @@ This repo includes practical machine learning mini-projects using real-world dat
 |---------------------------------------|--------------------------------------------------------------------|-----------------------------|
 | 🧬 `Classification Cancer`            | Predicts whether a tumor is benign or malignant using medical data| Classification (DecisionTreeClassifier, LogisticRegression)    |
 | 👩‍💼 `Employee Turnover`              | Predicts if an employee will stay or quit                          | Classification (Random Forest, Decision Tree) |
-| 🏘️ `Housing_cali`                     | Predicts house prices in California                                | Regression                  |
-| 🧯 `Image_compression`                | Applies K-Means clustering for image compression                   | Unsupervised Learning       |
+| 🏘️ `Housing_cali`                     | Predicts house prices in California                                | Regression & Classification (RandomForestClassifier)                |
+| 🧯 `Image_compression`                | Applies K-Means clustering for image compression                   | Unsupervised Learning(Clustering)      |
 | 🌸 `Iris_svm`                         | Classifies iris species using support vector machines              | Classification (SVM)        |
 | 📊 `Kmeans`                           | Clustering on unlabelled data for pattern discovery                | Unsupervised (K-Means)      |
 | 📢 `Linear-reg-on-advertisment_csv`  | Predicts sales from advertisement spend                            | Linear Regression           |
-| 📆 `Linear-reg-on-days-csv`          | Predicts numeric outcomes over time (days)   
+| 📆 `Linear-reg-on-days-csv`          | Predicts numeric outcomes over time (days)                         |Linear Regression|
 
 ---
 
