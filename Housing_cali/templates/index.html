@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        h3 {
+            text-align: center;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    
+    <form action="/predict" method="POST">
+        <label for="MedInc">Median Income (MedInc):</label>
+        <input type="number" name="MedInc" step="any" required>
+
+        <label for="HouseAge">House Age (HouseAge):</label>
+        <input type="number" name="HouseAge" step="any" required>
+
+        <label for="AveRooms">Average Rooms (AveRooms):</label>
+        <input type="number" name="AveRooms" step="any" required>
+
+        <label for="AveBedrms">Average Bedrooms (AveBedrms):</label>
+        <input type="number" name="AveBedrms" step="any" required>
+
+        <label for="Population">Population:</label>
+        <input type="number" name="Population" step="any" required>
+
+        <label for="AveOccup">Average Occupants (AveOccup):</label>
+        <input type="number" name="AveOccup" step="any" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Price: ${{ prediction }}</h3>
+        <h3>Affordability: {{ affordability }}</h3>
+    {% elif error %}
+        <h3>Error: {{ error }}</h3>
+    {% endif %}
+</body>
+</html>
