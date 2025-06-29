@@ -12,7 +12,7 @@ This repo includes practical machine learning mini-projects using real-world dat
 
 | Project Folder                         | Description                                                        | ML Technique                |
 |---------------------------------------|--------------------------------------------------------------------|-----------------------------|
-| 🧬 `Classification Cancer`            | Predicts whether a tumor is benign or malignant using medical data| Classification (SVM, RF)    |
+| 🧬 `Classification Cancer`            | Predicts whether a tumor is benign or malignant using medical data| Classification (DecisionTreeClassifier, LogisticRegression)    |
 | 👩‍💼 `Employee Turnover`              | Predicts if an employee will stay or quit                          | Classification (Random Forest, Decision Tree) |
 | 🏘️ `Housing_cali`                     | Predicts house prices in California                                | Regression                  |
 | 🧯 `Image_compression`                | Applies K-Means clustering for image compression                   | Unsupervised Learning       |
