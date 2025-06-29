@@ -10,13 +10,16 @@ This repo includes practical machine learning mini-projects using real-world dat
 
 ## 📁 Project Overview
 
-| Project Folder                       | Description                                                                 | ML Technique           |
-|-------------------------------------|-----------------------------------------------------------------------------|------------------------|
-| 🧑‍💼 `Employee Turnover`            | Predicts whether an employee will stay or quit based on HR data             | Classification, ROC    |
-| 🏠 `Housing_cali`                   | Predicts California housing prices using various features                   | Regression             |
-| 📢 `Linear-reg-on-advertisment_csv`| Predicts sales from advertising budgets (TV, radio, newspaper)              | Simple Linear Regression |
-| 📆 `Linear-reg-on-days-csv`        | Predicts numerical targets based on time-series (days) data                 | Linear Regression      |
-| 🏦 `Loan-Approval-Model`           | Classifies loan applications as approved or rejected                        | Classification (Logistic, Decision Tree) |
+| Project Folder                         | Description                                                        | ML Technique                |
+|---------------------------------------|--------------------------------------------------------------------|-----------------------------|
+| 🧬 `Classification Cancer`            | Predicts whether a tumor is benign or malignant using medical data| Classification (SVM, RF)    |
+| 👩‍💼 `Employee Turnover`              | Predicts if an employee will stay or quit                          | Classification (Random Forest, Decision Tree) |
+| 🏘️ `Housing_cali`                     | Predicts house prices in California                                | Regression                  |
+| 🧯 `Image_compression`                | Applies K-Means clustering for image compression                   | Unsupervised Learning       |
+| 🌸 `Iris_svm`                         | Classifies iris species using support vector machines              | Classification (SVM)        |
+| 📊 `Kmeans`                           | Clustering on unlabelled data for pattern discovery                | Unsupervised (K-Means)      |
+| 📢 `Linear-reg-on-advertisment_csv`  | Predicts sales from advertisement spend                            | Linear Regression           |
+| 📆 `Linear-reg-on-days-csv`          | Predicts numeric outcomes over time (days)   
 
 ---
 
