@@ -20,6 +20,7 @@ This repo includes practical machine learning mini-projects using real-world dat
 | 📊 `Kmeans`                           | Clustering on unlabelled data for pattern discovery                | Unsupervised (K-Means)      |
 | 📢 `Linear-reg-on-advertisment_csv`  | Predicts sales from advertisement spend                            | Linear Regression           |
 | 📆 `Linear-reg-on-days-csv`          | Predicts numeric outcomes over time (days)                         |Linear Regression|
+| 🚕 `car_crashes`          | car crashes in usa states                         |Linear Regression, RandomForestRegressor|
 
 ---
 
