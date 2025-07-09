@@ -27,13 +27,3 @@ This repo includes practical machine learning mini-projects using real-world dat
 | 💰 `loan prediction`                      | Predicts loan eligibility based on applicant information             | Classification (Random Forest, Logistic Regression) |
 
 ---
-
-## 🚀 Features
-
-- 🧹 Clean data preprocessing
-- 📈 Model training & evaluation (accuracy, RMSE, confusion matrix)
-- 📊 Data visualization with matplotlib & seaborn
-- 🔄 Multiple models for comparison
-- 📦 Organized code by project folders
-
----
