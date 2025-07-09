@@ -7,20 +7,24 @@ Welcome to the **Machine Learning** project repository!
 This repo includes practical machine learning mini-projects using real-world datasets. Each project explores a different ML concept, including regression, classification, and exploratory data analysis — built with **Python**, **scikit-learn**, **pandas**, and **matplotlib**.
 
 ---
-
 ## 📁 Project Overview
 
-| Project Folder                         | Description                                                        | ML Technique                |
-|---------------------------------------|--------------------------------------------------------------------|-----------------------------|
-| 🧬 `Classification Cancer`            | Predicts whether a tumor is benign or malignant using medical data| Classification (DecisionTreeClassifier, LogisticRegression)    |
-| 👩‍💼 `Employee Turnover`              | Predicts if an employee will stay or quit                          | Classification (Random Forest, Decision Tree) |
-| 🏘️ `Housing_cali`                     | Predicts house prices in California                                | Regression & Classification (RandomForestClassifier)                |
-| 🧯 `Image_compression`                | Applies K-Means clustering for image compression                   | Unsupervised Learning(Clustering)      |
-| 🌸 `Iris_svm`                         | Classifies iris species using support vector machines              | Classification (SVM)        |
-| 📊 `Kmeans`                           | Clustering on unlabelled data for pattern discovery                | Unsupervised (K-Means)      |
-| 📢 `Linear-reg-on-advertisment_csv`  | Predicts sales from advertisement spend                            | Linear Regression           |
-| 📆 `Linear-reg-on-days-csv`          | Predicts numeric outcomes over time (days)                         |Linear Regression|
-| 🚕 `car_crashes`          | car crashes in usa states                         |Linear Regression, RandomForestRegressor|
+| 📂 Project Folder                          | 📝 Description                                                       | 🧠 ML Technique                          |
+|-------------------------------------------|----------------------------------------------------------------------|------------------------------------------|
+| 🧬 `Classification Cancer`                | Predicts whether a tumor is benign or malignant using medical data   | Classification (Decision Tree, Logistic Regression) |
+| 👩‍💼 `Employee Turnover`                  | Predicts whether an employee will stay or leave                      | Classification (Random Forest, Decision Tree) |
+| 🏘️ `Housing_cali`                         | Predicts house prices in California                                  | Regression (Random Forest, Linear Regression) |
+| 🧯 `Image_compression`                    | Compresses images using K-Means clustering                           | Unsupervised Learning (Clustering) |
+| 🌸 `Iris_svm`                             | Classifies iris species using SVM                                    | Classification (Support Vector Machine) |
+| 📊 `Kmeans`                               | Performs clustering on unlabeled data                                | Unsupervised Learning (K-Means) |
+| 📢 `Linear-reg-on-advertisment_csv`      | Predicts sales based on advertisement spending                       | Regression (Linear Regression) |
+| 📆 `Linear-reg-on-days-csv`              | Predicts numerical values over a time period                         | Regression (Linear Regression) |
+| 🚗 `car_crashes`                          | Analyzes car crashes across US states                                | Regression (Linear, Random Forest) |
+| 🚘 `Car Evaluation`                       | Predicts car acceptability based on features like safety & price     | Classification (Decision Tree, Random Forest) |
+| 🎯 `Customer Segmentation`                | Segments customers into clusters based on purchasing behavior        | Unsupervised Learning (K-Means Clustering) |
+| 💎 `Diamonds_dataset_cleaning - RFC`     | Cleans diamond dataset and predicts price category                   | Classification (Random Forest Classifier) |
+| 🏦 `Loan-Approval-Model`                  | Predicts if a loan application should be approved                    | Classification (Random Forest) |
+| 💰 `loan prediction`                      | Predicts loan eligibility based on applicant information             | Classification (Random Forest, Logistic Regression) |
 
 ---
 
